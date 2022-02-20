@@ -27,3 +27,13 @@ pip install -r requirements.txt
 # pre-commit 자동화
 pre-commit install
 ```
+
+3. 데이터 다운받기
+
+다음과 같은 데이터셋을 data 폴더에 다운로드 받는다.
+
+Dataset list : ucr_time_series_anomaly_archive,
+
+```bash
+python download_data.py --name [dataset]
+```
