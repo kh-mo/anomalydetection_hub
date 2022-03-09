@@ -1,1 +1,6 @@
+GitPython
+matplotlib
+numpy
+pandas
 pre-commit
+tqdm
